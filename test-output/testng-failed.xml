@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewCustSuite]">
+  <test name="TestNewCust(failed)">
+    <classes>
+      <class name="com.customer.newscreens.NewCustomerScreens">
+        <methods>
+          <include name="verifyCustomer"/>
+          <include name="openBrowser"/>
+          <include name="verifyReg"/>
+        </methods>
+      </class> <!-- com.customer.newscreens.NewCustomerScreens -->
+    </classes>
+  </test> <!-- TestNewCust(failed) -->
+</suite> <!-- Failed suite [NewCustSuite] -->

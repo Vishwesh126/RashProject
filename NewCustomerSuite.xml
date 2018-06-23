@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NewCustomerSuite">
+  <test thread-count="5" name="TestingNewCustomer">
+  <classes>
+  	<class name="com.customer.newscreens.NewCustomerScreens"></class>
+  </classes>
+  </test> <!-- TestNewCust -->
+</suite> <!-- NewCustSuite -->
